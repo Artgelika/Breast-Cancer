@@ -155,7 +155,7 @@ if __name__ == "__main__":
     input_data, maks = normalize_data(input_data)
     #input_data bedzie się zawieralo w wąskim przedziale, aby ułatwić naukę sieci
 
-    output_data2 = []  # tu beda pojedyncze wartosci, tym sposobem dokładnosc wynosi 50% czyli sie nie uczy
+    output_data2 = []  # tu beda pojedyncze wartosci
     for i in output_data: 
         output_data2.append(int(i[0]))
     labelencoder_X_1 = LabelEncoder() #'e)'
